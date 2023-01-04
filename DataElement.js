@@ -30,15 +30,15 @@ class DataElement
     text (this.ano, x+15, y+15);
      fill(0,255,0);
     rect(30,530,10);
-    fill(0);
-    text("Dias sem chuva",100,540);
+    fill(255);
+    text("Dias sem chuva",110,540);
     fill(0,0,255);
     rect(30,550,10);
-    fill(0);
-    text("Temperatura média mínima",135,560);
+    fill(255);
+    text("Temperatura média mínima",152,560);
     fill(255,0,0);
     rect(30,570,10);
-    fill(0);
-    text("Temperatura média máxima",137,580);
+    fill(255);
+    text("Temperatura média máxima",152,580);
   }
 }
