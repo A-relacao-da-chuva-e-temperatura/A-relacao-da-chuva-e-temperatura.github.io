@@ -25,7 +25,7 @@ class DataElement
     rect (x+this.barra_w*1, y, this.barra_w, map(this.min, -20, 60, 0,  this.barra_h) *-1);
     fill(255,0,0);
     rect (x+this.barra_w*2, y, this.barra_w, map(this.max, -20, 60, 0,  this.barra_h) *-1);
-    fill(0);
+    fill(255);
     textSize(14);
     text (this.ano, x+15, y+15);
      fill(0,255,0);
