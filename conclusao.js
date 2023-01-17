@@ -1,10 +1,13 @@
-
-
-
-function drawIntro()// função que desenha a 1ª cena do trabalho
+function conclusao()// função que desenha a 3ª cena do trabalho
 {
-  fill(255);//cor do texto
-  const margem_bot = 50;//margem inferior do botão
+  //remoção da select box quando passa para a 3 cena
+  if (select_criado === true) 
+  {
+    sel.remove();
+  }
+
+  fill(255);  //cor do texto
+  const margem_bot = 50;  //margem inferior do botão
   const textWidth = width-100;//largura máxima do texto
   // dimensões máximas e mínimas dos textos
   const tamanho_menor = 20;
@@ -22,12 +25,15 @@ function drawIntro()// função que desenha a 1ª cena do trabalho
   textAlign (CENTER);//Alinhamento do texto
   textWrap (WORD);// faz automaticamente quebras de linhas por palavras (daí o (WORD) dentro do seu limite definido)
   text("The Relationship of Rainfall and Ambient Temperature.", width/2, 50, textWidth);//titulo da página
-  textFont(font);//voltar a font normal
-  textSize(tamanho_txt_restringido/1.7);//tamanho do texto
-  textAlign(CENTER, CENTER);//Alinhamento do texto
-  textWrap (WORD);// faz automaticamente quebras de linhas por palavras (daí o (WORD) dentro do seu limite definido)
-  text("This project seeks to explore the truth of the popular belief that rainy days lead to milder ambient temperatures. We will investigate if a year with no or minimal rain in a given region results in a difference in average annual temperatures, higher or lower, and if a year with precipitation produces more moderate temperatures. Furthermore, we will determine if rainfall has decreased over time or if Portugal still experiences consistent precipitation, even in its hottest and driest areas. \n\n (To search and compare the data, click the button to link to another page. From there, you can select a location and examine the rainy days, average annual temperatures, and determine if rain tempers the environment).  ", width/2, height/2, textWidth);//texto da introdução (texto central da página)
+  text("(Conclusion)", width/2, 100, textWidth);//sub-titulo da página
   
+  textFont(font);//voltar a font normal
+  textSize(tamanho_txt_restringido/1.7);//tamanho de texto
+  textAlign(CENTER, CENTER);//alinhamento de texto
+  textWrap (WORD);// faz automaticamente quebras de linhas por palavras (daí o (WORD) dentro do seu limite definido)
+  text("The results of the data analysis suggest that the popular belief that rainy days lead to milder temperatures holds true in Portugal, with the average temperature remaining consistent over the last two decades despite a decrease in the amount of rainfall. This supports the notion that precipitation does indeed have a moderating effect on temperatures. We found that although there had been a decrease in the amount of rainfall, the average temperature was still consistent across the country.", width/2, height/2, textWidth);//texto da conclusão (texto central da página)
+  
+  fill(255);//cor
   //dimensões do botão
   let nxt_scene_btn_x = width/2;
   let nxt_scene_btn_y = height-margem_bot;
@@ -39,7 +45,7 @@ function drawIntro()// função que desenha a 1ª cena do trabalho
   rect (nxt_scene_btn_x, nxt_scene_btn_y, nxt_scene_btn_w, nxt_scene_btn_h);//criação do botão
   
   fill(0)//cor do texto dentro do botão
-  text("See More!", width/2, height-margem_bot-2);//texto dentro do botão
+  text("Back to start", width/2, height-margem_bot-2);//texto dentro do botão
   //cálculo da area clicavel do botão
   if (mouseX > nxt_scene_btn_x-nxt_scene_btn_w/2 && 
       mouseX < nxt_scene_btn_x+nxt_scene_btn_w/2 && 
@@ -48,8 +54,9 @@ function drawIntro()// função que desenha a 1ª cena do trabalho
       mouseIsPressed === true && 
       mouseIsReleased === true)
   {
-    scene = 2;//quando o botão é clicado vai para a segunda cena
+    scene = 1;//quando o botão é clicado volta para a primeira cena
     mouseIsReleased = false;
     rectMode(CORNER);
+    select_criado = false;
   }
 }
