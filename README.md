@@ -2,7 +2,7 @@
 
 Link p5: https://editor.p5js.org/canejo/sketches/SgivtJ2PP
 
-Relatório: 
+<h1>Relatório: </h1>
 
 A realização deste projeto começou pela   pesquisa   do tema. Surgiu algumas dificuldades e não conseguimos obter dados interessantes que pudéssemos comparar entre si. 
 
