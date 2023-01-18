@@ -48,13 +48,19 @@ Links das tabelas no Github:
  
  <h1>Tecnologias</h1>
  
-  [<ins>Excel;</ins>]([https://www.microsoft.com/pt-pt/microsoft-365/excel]) 
+ **Excel**;
+ 
+ **P5.js**;
+ 
+ <h1>Colaboradores</h1>
 
 Rafael Canejo, Nº3200711 
 
 Ana Pereira, Nº3200727 
 
 Pedro Ferreira, Nº3200354 
+
+<h1>Informações adicionais</h1>
 
 Nome enunciado: Perspectivas 
 
