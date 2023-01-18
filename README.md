@@ -16,7 +16,7 @@ O próximo passo foi a criação de uma caixa com opções que permite   o utili
 
 A parte estética do gráfico ficou sobre a responsabilidade da Ana. Tentamos escolher cores que representassem aquilo que queríamos transmitir. O azul-escuro para os dias de chuva, a temperatura mínima com azul-claro e a temperatura máxima a vermelho. Estas cores podem ser também visualizadas na legenda inferior ao gráfico.  
 
-De modo, a não sobrecarregar o ecrã associado aos gráficos, foi proposto pelo professor a criação de outros ecrãs. Este processo começou primeiro pela criação de um botão, ao qual permite a ligação entre ecrãs. O primeiro ecrã corresponde à introdução, o segundo à visualização dos gráficos e o terceiro à conclusão (O primeiro botão na página da introdução, redireciona o utilizador para a página da visualização dos gráficos. O segundo botão na página da visualização dos gráficos, redireciona o utilizador para a página da conclusão. O terceiro botão na página da conclusão, redireciona o utilizador para página da introdução, fazendo assim um loop entre páginas). 
+De modo, a não sobrecarregar o ecrã associado aos gráficos, foi proposto pelo professor a criação de outros ecrãs. Este processo começou primeiro pela criação de um botão, ao qual permite a ligação entre ecrãs. <a style"font-weight:bold;"O primeiro ecrã corresponde à introdução, o segundo à visualização dos gráficos e o terceiro à conclusão (O primeiro botão na página da introdução, redireciona o utilizador para a página da visualização dos gráficos. O segundo botão na página da visualização dos gráficos, redireciona o utilizador para a página da conclusão. O terceiro botão na página da conclusão, redireciona o utilizador para página da introdução, fazendo assim um loop entre páginas). </a>
 
 De seguida, o Pedro fez um levantamento dos textos que seriam pertinentes para o trabalho e a Ana ajudou na colocação dos mesmos no ecrã. O Rafael acabou por ajudar no alinhamento dos textos.  
 
@@ -27,6 +27,8 @@ Colocamos gotas de chuva a cair no background de modo a obter algum dinamismo ao
  Decidimos colocar um cinzento-escuro na tela de fundo, pois seria uma cor que pudesse realçar as cores escolhidas para os gráficos e a própria simulação da chuva a cair.  
 
 A construção deste relatório foi repartida por todos, consoante a parte que cada um desenvolvido do código. Por fim, o Pedro também ficou responsável por colocar o relatório no repositório do Github.  
+
+<h1>Tabelas</h1>
 
 Links das tabelas   (origem): 
 
