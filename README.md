@@ -28,6 +28,16 @@ Colocamos gotas de chuva a cair no background de modo a obter algum dinamismo ao
 
 A construção deste relatório foi repartida por todos, consoante a parte que cada um desenvolvido do código. Por fim, o Pedro também ficou responsável por colocar o relatório no repositório do Github.  
 
+<h1>Textos elaborados pelo grupo</h1>
+
+**Introdução:**
+This project seeks to explore the truth of the popular belief that rainy days lead to milder ambient temperatures. We will investigate if a year with no or minimal rain in a given region results in a difference in average annual temperatures, higher or lower, and if a year with precipitation produces more moderate temperatures. Furthermore, we will determine if rainfall has decreased over time or if Portugal still experiences consistent precipitation, even in its hottest and driest areas.  
+
+(To search and compare the data, click the button to link to another page. From there, you can select a location and examine the rainy days, average annual temperatures, and determine if rain tempers the environment). 
+
+**Conclusão:**
+The results of the data analysis suggest that the popular belief that rainy days lead to milder temperatures holds true in Portugal, with the average temperature remaining consistent over the last two decades despite a decrease in the amount of rainfall. This supports the notion that precipitation does indeed have a moderating effect on temperatures. We found that although there had been a decrease in the amount of rainfall, the average temperature was still consistent across the country. 
+
 <h1>Tabelas</h1>
 
 Links das tabelas   (origem): 
@@ -52,7 +62,7 @@ Links das tabelas no Github:
  
  **P5.js**;
  
- <h1>Colaboradores</h1>
+ <h1>Membros do grupo</h1>
 
 Rafael Canejo, Nº3200711 
 
