@@ -45,6 +45,10 @@ Links das tabelas no Github:
  [<ins>Temperatura máxima do ar;</ins>](https://github.com/A-relacao-da-chuva-e-temperatura/A-relacao-da-chuva-e-temperatura.github.io/blob/main/Tabelas_site_media_maximas.csv)  
 
  [<ins>Temperatura mínima do ar;</ins>](https://github.com/A-relacao-da-chuva-e-temperatura/A-relacao-da-chuva-e-temperatura.github.io/blob/main/Tabelas_site_media_minimas.csv)  
+ 
+ <h1>Tecnologias</h1>
+ 
+  [<ins>Excel;</ins>]([https://www.microsoft.com/pt-pt/microsoft-365/excel]) 
 
 Rafael Canejo, Nº3200711 
 
